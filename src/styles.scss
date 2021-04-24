@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: Column;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 2rem;
+  .title{
+    color:blue
+  }
+  .tensorflow{
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    #video{
+      position: absolute;  
+      left: 0;    
+    }
+    #canvasDraw{
+      position: absolute;
+      left:0;
+      z-index: 2;
+    }
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+    .faCoffee {
+      color: red;
+      margin: 0 0.5rem 0 0.5rem;
+    }
+  }
+}
